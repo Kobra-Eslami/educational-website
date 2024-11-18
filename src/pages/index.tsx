@@ -17,7 +17,6 @@ export default function Home() {
                             aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                    <a className="navbar-brand" href="#">LearnWM</a>
                     <div className="collapse navbar-collapse" id="navbarToggler">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item dropdown">
@@ -26,12 +25,14 @@ export default function Home() {
                                     Categories
                                 </a>
                                 <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#">Action</a></li>
-                                    <li><a className="dropdown-item" href="#">Another action</a></li>
+                                    <li><a className="dropdown-item" href="#">JavaScript</a></li>
+                                    <li><a className="dropdown-item" href="#">React Js</a></li>
+                                    <li><a className="dropdown-item" href="#">Next Js</a></li>
+                                    <li><a className="dropdown-item" href="#">Node Js</a></li>
                                     <li>
                                         <hr className="dropdown-divider"/>
                                     </li>
-                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a className="dropdown-item" href="#">More ...</a></li>
                                 </ul>
                             </li>
                             <li className="nav-item">
@@ -44,12 +45,8 @@ export default function Home() {
                                 <a className="nav-link" aria-disabled="true">Contact Us</a>
                             </li>
                         </ul>
-                        <form className="d-flex" role="search">
-                            <input className="form-control me-2" type="search" placeholder="Search"
-                                   aria-label="Search"/>
-                            <button className="btn btn-outline-success" type="submit">Search</button>
-                        </form>
                     </div>
+                    <a className="navbar-brand" href="#">LearnWM</a>
                 </div>
             </nav>
         </>
